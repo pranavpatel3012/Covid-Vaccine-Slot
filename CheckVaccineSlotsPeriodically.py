@@ -1,3 +1,7 @@
+"""
+Get Notfied when vaccine is available for 18+.
+"""
+
 import requests
 import datetime
 import time
@@ -13,7 +17,7 @@ todayDate = datetime.datetime.now()
 
 PINCODE = 396445
 DATE = "" +str( todayDate.day) + "-" + str(todayDate.month) + "-" + str(todayDate.year)
-AGE = 45
+AGE = 18
 
 slotsData = ""
 
